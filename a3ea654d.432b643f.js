@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[13],{84:function(o){o.exports=JSON.parse('{"allTagsPath":"/modernzhdocs/blog/tags","slug":"zuluhotel","name":"zuluhotel","count":1,"permalink":"/modernzhdocs/blog/tags/zuluhotel"}')}}]);
