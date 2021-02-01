@@ -17,14 +17,14 @@ module.exports = {
       },
       items: [
         {
-          to: 'docs/',
+          to: 'docs/getting-started',
           activeBasePath: 'docs',
           label: 'Docs',
           position: 'left',
         },
         { to: 'blog', label: 'Blog', position: 'left' },
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/ZuluHotelAustralia/modernzhdocs',
           label: 'GitHub',
           position: 'right',
         },
@@ -37,12 +37,16 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Style Guide',
-              to: 'docs/',
+              label: 'Getting Started',
+              to: 'docs/getting-started',
             },
             {
-              label: 'Second Doc',
-              to: 'docs/doc2/',
+              label: 'Folder Structure',
+              to: 'docs/folder-structure/',
+            },
+            {
+              label: 'World Setup',
+              to: 'docs/world-setup/',
             },
           ],
         },
@@ -50,16 +54,8 @@ module.exports = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
               label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              href: 'https://discord.gg/P6ufsVAcAr',
             },
           ],
         },
@@ -72,7 +68,7 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/ZuluHotelAustralia/zuluhotel',
             },
           ],
         },
@@ -87,12 +83,12 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/edit/master/website/',
+          editUrl: 'https://github.com/ZuluHotelAustralia/modernzhdocs/edit/main/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+          editUrl: 'https://github.com/ZuluHotelAustralia/modernzhdocs/edit/main/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
