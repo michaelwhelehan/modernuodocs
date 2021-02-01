@@ -42,3 +42,8 @@
   width: 100px;
   margin-bottom: 1rem;
 }
+
+.getStarted {
+  border-style: solid;
+  border-width: 1px;
+}
