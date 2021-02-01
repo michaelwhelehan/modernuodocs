@@ -2,7 +2,7 @@ module.exports = {
   title: 'Modern Zulu Hotel',
   tagline: 'Ultima Online Zulu Hotel using ModernUO Engine',
   url: 'https://zuluhotel.com.au',
-  baseUrl: '/',
+  baseUrl: '/modernzhdocs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
