@@ -30,6 +30,12 @@ zuluhotel/
     Spells/ <-------------- Spell and spellbook handling scripts
     Targets/ <------------- Target handling scripts when selecting a target in-game
     Zulu/ <---------------- Very Zulu Hotel-specific features added on to the server
+      Engines/ <----------- Classes / Loot / Magic item systems
+      Items/ <------------- Ore / Logs / Leather items and SingleClick handler for displaying magic item names
+      Mobiles/ <----------- Zulu Hotel specific mobs
+      Packets/ <----------- Network packet handlers
+      Spells/ <------------ Earth spells and Codex spells
+      Utilities/ <--------- Utility functions
 ```
 
 For the project to build, you must change the `dataDirectories` entry in the `Distribution/Configuration/modernuo.json` to the root of your UO client installation directory (default is `/app/client/` for docker) e.g.
