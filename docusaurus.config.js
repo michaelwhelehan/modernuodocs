@@ -1,7 +1,7 @@
 module.exports = {
   title: 'Modern Zulu Hotel',
   tagline: 'Ultima Online Zulu Hotel using ModernUO Engine',
-  url: 'https://zuluhotelaustralia.github.io',
+  url: 'https://zuluhotel.com.au',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
