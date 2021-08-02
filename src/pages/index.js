@@ -34,7 +34,7 @@ function Feature({ imageUrl, title, description }) {
 function Home() {
   const context = useDocusaurusContext()
   const { siteConfig = {} } = context
-  const logoUrl = useBaseUrl('img/logo.png')
+  const logoUrl = useBaseUrl('img/muologo.svg')
 
   return (
     <Layout title={`${siteConfig.title}`} description="Ultima Online Zulu Hotel using ModernUO Engine">

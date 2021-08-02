@@ -1,19 +1,19 @@
 module.exports = {
-  title: 'Modern Zulu Hotel',
-  tagline: 'Ultima Online Zulu Hotel using ModernUO Engine',
-  url: 'https://zuluhotel.com.au',
-  baseUrl: '/modernzhdocs/',
+  title: 'Modern UO',
+  tagline: 'Ultima Online Server Emulator for the modern era!',
+  url: 'https://modernuo.com',
+  baseUrl: '/modernuodocs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
-  organizationName: 'ZuluHotelAustralia', // Usually your GitHub org/user name.
-  projectName: 'modernzhdocs', // Usually your repo name.
+  favicon: 'img/favicon.png',
+  organizationName: 'ModernUO', // Usually your GitHub org/user name.
+  projectName: 'modernuodocs', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'Zulu Hotel',
+      title: 'ModernUO',
       logo: {
-        alt: 'Zulu Hotel Logo',
-        src: 'img/logo.png',
+        alt: 'ModernUO Logo',
+        src: 'img/muologo.svg',
       },
       items: [
         {
@@ -24,7 +24,7 @@ module.exports = {
         },
         { to: 'blog', label: 'Blog', position: 'left' },
         {
-          href: 'https://github.com/ZuluHotelAustralia/modernzhdocs',
+          href: 'https://github.com/modernuo/modernuodocs',
           label: 'GitHub',
           position: 'right',
         },
@@ -55,7 +55,7 @@ module.exports = {
           items: [
             {
               label: 'Discord',
-              href: 'https://discord.gg/P6ufsVAcAr',
+              href: 'https://discord.gg/eWDwhqU5',
             },
           ],
         },
@@ -68,12 +68,12 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/ZuluHotelAustralia/zuluhotel',
+              href: 'https://github.com/modernuo/ModernUO',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Zulu Hotel Australia. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} ModernUO. Built with Docusaurus.`,
     },
   },
   presets: [
@@ -83,12 +83,12 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/ZuluHotelAustralia/modernzhdocs/edit/main/',
+          editUrl: 'https://github.com/modernuo/modernuodocs/edit/main/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
-          editUrl: 'https://github.com/ZuluHotelAustralia/modernzhdocs/edit/main/blog/',
+          editUrl: 'https://github.com/modernuo/modernuodocs/edit/main/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
